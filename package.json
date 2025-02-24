@@ -1,8 +1,6 @@
 {
-  "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
     "test": "./scripts/start.sh && node --test && ./scripts/stop.sh",
     "test:watch": "./scripts/watch.sh"
   },
